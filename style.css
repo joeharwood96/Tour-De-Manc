@@ -1,0 +1,230 @@
+body {
+    margin: auto;
+    height: 100%;
+}
+
+#welcomeHeader {
+    font-family: russo one;
+    color: #CD3333;
+    position: absolute;
+    background: black;
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 55%;
+    left: 20%;
+}
+
+h1 {
+    font-family: russo one;
+    color: #CD3333;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+
+h2 {
+    font-family: russo one;
+}
+
+a {
+    font-family: russo one;
+}
+
+#welcome {
+    height: 450px;
+    width: 100%;
+
+    background-image: url("images/bikeBG.jpg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about {
+    height: 550px;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.aboutTitle {
+    top: 100%;
+    color: black;
+}
+
+p {
+    color: black;  
+}
+
+.row {
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#rowinfo {
+    margin-bottom: 5%;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 390px;
+    text-align: center;
+    font-family: arial;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.profileText {
+    padding: 5%;
+}
+
+.profilePhotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+
+}
+
+.userTool{
+    width: 50%;
+    margin-left: 5%; 
+    margin-bottom: 5%;
+    font-family: russo one;
+    margin-top: 2%;
+}
+
+#delete {
+    width: 85px;
+}
+
+#aboutBtn {
+    margin: 1%;
+}
+
+#riderInfo {
+    margin-top: 5%;
+}
+
+#photoInfo {
+    margin-top: 5%;
+}
+
+#eventInfo {
+    margin-top: 5%;
+}
+
+.login {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: russo one;
+}
+
+.gallerySearch {
+    margin-left:25%; 
+    margin-right:25%; 
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    text-align: center;
+}
+
+#search {
+    width: 85%; 
+}
+
+.galleryPhotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+#riderPhoto {
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+#riderPhoto:hover {
+    transform: scale(1.1);
+}
+
+.upload {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.update {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: russo one;
+}
+
+.message {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: russo one;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background:rgb(26, 25, 25);
+}
+
+.footer p {
+    color: white;
+}
+
+.animate-pop-in {
+    animation: pop-in .6s ease-out forwards;
+    animation-delay: .6s;
+}
+
+.apiResults {
+    margin-bottom: 100px;
+}
+
+@keyframes pop-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-4rem) scale(.8);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+
+
+
+  
